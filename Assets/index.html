@@ -1,14 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <!-- meta tags  -->
-  <head charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Assets/style.css" />
-    <title> 1 DEEN </title>
-
+  <head
+    charset="UTF-8"
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+    <title>1 DEEN</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    
+    <main class="dashboard">
+      <header class="navbar">
+        <nav class="navigation">
+          <button class="nav-icon" onclick="window.location.href = '/'">
+            Home
+          </button>
+          <button class="nav-icon" onclick="window.location.href = '/about'">
+            About Me
+          </button>
+          <button class="nav-icon" onclick="window.location.href = '/nasheeds'">
+            Nasheeds
+          </button>
+        </nav>
+
+        <div class="social-links">
+          <a
+            href="https://www.youtube.com/@1deen727"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              class="social-icon"
+              src="/Images/Youtube-Icon.png"
+              alt="YouTube"
+            />
+          </a>
+
+          <a
+            href="https://open.spotify.com/artist/0swUO3uAz9SgSGw0h44JD8"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              class="social-icon"
+              src="/Images/Spotify-Icon.svg"
+              alt="Spotify"
+            />
+          </a>
+
+          <a
+            href="https://music.apple.com/us/artist/mossy/1660303860"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              class="social-icon"
+              src="/Images/Apple-Music-Icon.png"
+              alt="Apple Music"
+            />
+          </a>
+        </div>
+      </header>
+
+      <section class="Latest-Nasheeds-Panel">
+        <h1>Latest Nasheeds</h1>
+      </section>
+
+      <!-- JavaScript link -->
+      <!-- <script src="Assets/javascript.js"></script> -->
+    </main>
   </body>
-  
 </html>

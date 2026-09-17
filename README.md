@@ -38,5 +38,7 @@ Below is a Wireframe example of what I want my Dashboard Wireframe to look like:
 Code validation to be done through the use of the following websites:
 
 [HTML Validator](https://validator.w3.org/nu/#textarea)
+<br>
 [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+<br>
 [JS Validator](https://www.site24x7.com/tools/javascript-validator.html)
