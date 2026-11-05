@@ -9,30 +9,39 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="index.html" aria-label="1 DEEN home">
+      <a class="brand" href="home.html" aria-label="1 DEEN home">
         <img class="brand-logo" src="../Images/favicon.jpeg" alt="" />
         <span>1 DEEN</span>
       </a>
       <nav class="navigation" aria-label="Main navigation">
-        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="home.html">Home</a>
         <a class="nav-link" href="about.html">About Me</a>
         <a class="nav-link" href="nasheeds.html" aria-current="page">Nasheeds</a>
       </nav>
-      <div class="social-links" aria-label="Social media">
+      <div class="social-links">
         <a href="https://www.youtube.com/@1deen727" target="_blank" rel="noopener" aria-label="YouTube">
-          <img class="social-icon" src="../Images/Youtube-Logo-Icon.png" alt="" />
+          <img class="social-icon youtube-icon" src="../Images/Youtube-Logo-Icon.png" alt="" />
         </a>
         <a href="https://open.spotify.com/artist/0swUO3uAz9SgSGw0h44JD8" target="_blank" rel="noopener" aria-label="Spotify">
-          <img class="social-icon" src="../Images/Spotify-Icon.png" alt="" />
+          <img class="social-icon spotify-icon" src="../Images/Spotify-Icon.png" alt="" />
         </a>
         <a href="https://music.apple.com/us/artist/mossy/1660303860" target="_blank" rel="noopener" aria-label="Apple Music">
-          <img class="social-icon" src="../Images/Apple-Icon.png" alt="" />
+          <img class="social-icon apple-icon" src="../Images/Apple-Icon.png" alt="" />
         </a>
       </div>
     </header>
     <main class="page-content">
       <section class="content-card" aria-labelledby="nasheeds-title">
         <h1 id="nasheeds-title">Latest Nasheeds</h1>
+
+        <iframe
+          class="video-feed-embed"
+          title="Latest 1 DEEN videos"
+          onload="iFrameSetup(this)"
+          src="https://app.mirror-app.com/feed-youtube/a26728eb-075f-40ec-b405-5c242f81e574/preview"
+        ></iframe>
+        <script src="https://cdn.jsdelivr.net/npm/@mirrorapp/iframe-bridge@latest/dist/index.umd.js"></script>
+
       </section>
     </main>
   </body>
