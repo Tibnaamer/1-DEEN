@@ -16,8 +16,6 @@ Below is a Wireframe example of what I want my Dashboard Wireframe to look like:
 
 <br>
 
-# Features
-
 # Technologies Used
 
 - HTML was used to create the structure of my site
@@ -30,24 +28,35 @@ Below is a Wireframe example of what I want my Dashboard Wireframe to look like:
 
 # Accessibility / Validation
 
+Lighthouse was used to tests the performance, accessibility, best practices and SEO of the website, please find the report below:
+
+![Lighthouse Score](Images/Lighthouse-performance.png)
+
+
 Code validation done through the use of the following websites:
 
 [HTML Validator](https://validator.w3.org/nu/#textarea)
-<br>
+
 ![HTML Validation](Images/html-Validation.png)
-<br>
+
+
 [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-<br>
+
 ![CSS Validation](Images/css-validation.png)
+
 <br>
 
 # Deployment
+
+* The site was deployed to GitHub Pages, the steps I followed are as follows:
+* While in the GitHub repository, navigate to the Settings tab
+* Inside the source section, select the Main Branch and click the "Save" button
+* Once the page has been refreshed and there are no issues, this will indicate successful deployment.
+
+<br>
 
 # Credits
 
 Black and gold background published from [magnific (starline)](https://www.magnific.com/free-vector/black-gold-stylish-flower-decoration-background_6868417.htm#fromView=keyword&page=2&position=1&uuid=cf519760-2459-4188-9237-6f6a8e7a6b30&track=ais_hybrid&query=Islamic+4k+wallpaper)
 
 Black and gold social media icons from [icons8](https://icons8.com/icons/set/apple-music-spotify-youtube)
-
-
-
