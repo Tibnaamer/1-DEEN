@@ -1,8 +1,8 @@
 # Overview
 
-This repository will to be used in order to create a website for the YouTube channel 1 DEEN.
+This repository was used in order to create a website for the YouTube channel 1 DEEN.
 
-My 1 DEEN website is available by clicking the following link:
+The 1 DEEN website is available by clicking the following link:
 
 [1 DEEN website](https://tibnaamer.github.io/1-DEEN/)
 
@@ -50,7 +50,7 @@ Code validation done through the use of the following websites:
 
 * The site was deployed to GitHub Pages, the steps I followed are as follows:
 * While in the GitHub repository, navigate to the Settings tab
-* Inside the source section, select the Main Branch and click the "Save" button
+* Inside the pages section, select the Main Branch and click the "Save" button
 * Once the page has been refreshed and there are no issues, this will indicate successful deployment.
 
 <br>
